@@ -15,11 +15,11 @@
                 "groups": [
                     {
                         "group": "Erste Schritte",
-                        "pages": ["index", "quickstart", "development"]
+                        "pages": ["start/unternehmen", "start/leistungen", "start/trainingsorte", "start/import"]
                     },
                     {
                         "group": "Hundeschule",
-                        "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation", "essentials/reusable-snippets"]
+                        "pages": []
                     }
                 ]
             },
@@ -53,7 +53,7 @@
                 },
                 {
                     "anchor": "Community",
-                    "href": "https://mintlify.com/community",
+                    "href": "https://123hundeschule.de/",
                     "icon": "slack"
                 },
                 {
@@ -72,13 +72,13 @@
         "links": [
             {
                 "label": "Support",
-                "href": "mailto:hi@mintlify.com"
+                "href": "mailto:support@123hundeschule.de"
             }
         ],
         "primary": {
             "type": "button",
-            "label": "Dashboard",
-            "href": "https://dashboard.mintlify.com"
+            "label": "Website",
+            "href": "https://123hundeschule.de"
         }
     },
     "footer": {
