@@ -15,24 +15,60 @@
                 "groups": [
                     {
                         "group": "Erste Schritte",
-                        "pages": ["start/unternehmen", "start/leistungen", "start/trainingsorte", "start/import"]
+                        "pages": ["start/unternehmen", "start/leistungen", "start/trainingsorte", "start/import", "start/migration"]
                     },
                     {
                         "group": "Hundeschule",
-                        "pages": []
+                        "pages": ["hundeschule/einzeltraining", "hundeschule/buchungskalender", "hundeschule/gruppentraining", "hundeschule/kurse", "hundeschule/veranstaltungen"]
                     }
                 ]
             },
             {
-                "tab": "API Reference",
+                "tab": "FAQ",
                 "groups": [
                     {
-                        "group": "API Documentation",
-                        "pages": ["api-reference/introduction"]
-                    },
-                    {
-                        "group": "Endpoint Examples",
-                        "pages": ["api-reference/endpoint/get", "api-reference/endpoint/create", "api-reference/endpoint/delete", "api-reference/endpoint/webhook"]
+                        "group": "FAQ",
+                        "pages": [
+                            "faq/kurse",
+                            "faq/einstellungen",
+                            "faq/rechnungen",
+                            "faq/e-mails",
+                            "faq/zahlungsarten",
+                            "faq/kunden",
+                            "faq/abonnement",
+                            "faq/einzeltraining",
+                            "faq/mehrfachkarten",
+                            "faq/zahlungen",
+                            "faq/konten",
+                            "faq/belege",
+                            "faq/gruppentraining",
+                            "faq/bank",
+                            "faq/anfragen",
+                            "faq/veranstaltungen",
+                            "faq/mitarbeiter",
+                            "faq/aufgaben",
+                            "faq/gutscheine",
+                            "faq/erweiterungen",
+                            "faq/teilnehmer",
+                            "faq/textvorlagen",
+                            "faq/hunde",
+                            "faq/trainingsorte",
+                            "faq/daten",
+                            "faq/webseite",
+                            "faq/teilnahmen",
+                            "faq/leistungen",
+                            "faq/rollen",
+                            "faq/preise",
+                            "faq/unternehmenseinstellungen",
+                            "faq/leistungen-1",
+                            "faq/kalender",
+                            "faq/abrechnung",
+                            "faq/feedback",
+                            "faq/notizen",
+                            "faq/buchhaltung",
+                            "faq/buchungskalender",
+                            "faq/einnahmen"
+                        ]
                     }
                 ]
             }

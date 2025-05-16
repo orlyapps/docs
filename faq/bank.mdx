@@ -1,0 +1,86 @@
+---
+title: Bank
+mode: "wide"
+description: 
+---
+
+## Warum habe ich schon wieder ein Problem mit der Kontoverknüpfung und was muss ich tun?
+
+Der Zugriff auf Dein Bankkonto über die Software ist aus Sicherheitsgründen auf 90 Tage begrenzt. Nach Ablauf dieser Frist muss die Verbindung erneut autorisiert werden, um unbefugten Zugriff zu verhindern. Das ist eine gesetzliche Vorgabe (PSD2-Richtlinie) und keine Fehlfunktion.
+
+Um die Verbindung wiederherzustellen, gehe wie folgt vor:
+1. Gehe zu **Einstellungen > Konten**.
+2. Öffne das **...-Menü** unter Aktionen und wähle **"Konten importieren"**.
+3. Suche deine Bank nach Name oder BIC.
+4. Wähle die Bank aus und klicke auf **"Aktion ausführen"**.
+5. Du wirst zu unserem Zahlungsdienstleister GoCardless weitergeleitet, wo du die Daten einsehen kannst, die die Software abruft.
+6. Bestätige die Berechtigungen und melde dich mit deinen Bankdaten an.
+7. Folge den Anweisungen (in der Regel ist eine TAN-Bestätigung erforderlich).
+
+Nach Abschluss dieses Vorgangs wirst du automatisch zurück zur Software geleitet und die Verbindung ist wiederhergestellt.
+
+## Wie kann ich meine Bankverbindung wiederherstellen?
+
+Um deine Bankverbindung wiederherzustellen, folge diesen Schritten:
+
+1. **Gehe zu den Einstellungen**: Logge dich in dein Konto ein und navigiere zum Bereich "Einstellungen".
+
+2. **Wähle den Abschnitt "Zahlungsarten"**: Dort solltest du alle hinterlegten Bankverbindungen sehen.
+
+3. **Bankverbindung aktualisieren**: Klicke auf die Option zum Bearbeiten oder Hinzufügen einer neuen Bankverbindung. Gib die korrekten Bankdaten ein.
+
+4. **Speichern**: Vergiss nicht, deine Änderungen zu speichern, um sicherzustellen, dass die neue Bankverbindung aktiv ist.
+
+5. **Überprüfen**: Nachdem du die Bankverbindung geändert hast, überprüfe, ob sie korrekt angezeigt wird.
+
+## Wie oft kann ich mein Bankkonto aktualisieren?
+
+Du kannst dein Bankkonto nun einmal pro Tag aktualisieren. Diese Änderung basiert auf neuen Richtlinien für das Abrufen von Bankdaten. Es könnte so erscheinen, als ob nichts passiert, während die Aktualisierung im Hintergrund läuft. Du kannst in der neuen Anzeige "Letzte Aktualisierung" und "Nächste Aktualisierung" sehen, wann das Konto zuletzt aktualisiert wurde und wann die nächsten Aktualisierungen möglich sind.
+
+## Warum wird eine bereits bezahlte Rechnung immer noch als offen angezeigt?
+
+Wenn eine bezahlte Rechnung weiterhin als offen angezeigt wird, liegt das oft an einer abgelaufenen Verbindung zu deinem Bankkonto. Aufgrund der PSD2-Richtlinie dürfen Drittanbieter wie unsere Software nur für 90 Tage auf dein Bankkonto zugreifen. Nach Ablauf dieser Frist muss die Verbindung aus Datenschutzgründen erneut autorisiert werden. Um das Problem zu beheben, kannst du dein Bankkonto erneut importieren, ohne das "alte" Konto zu löschen. Nach dem Import solltest du das Konto manuell aktualisieren, damit alle Transaktionen korrekt übertragen werden.
+
+## Wie kann ich eine Überweisung im System erfassen?
+
+Um eine Überweisung zu erfassen, musst Du sicherstellen, dass das Bankkonto richtig mit dem System verknüpft ist. Wenn Du die Möglichkeit zur Zuweisung einer Zahlung nicht finden kannst, könnte es daran liegen, dass die Sicherheitstage für die Bankverbindung abgelaufen sind. In diesem Fall musst Du das Bankkonto neu verknüpfen, indem Du es erneut importierst, ohne das bestehende Konto zu löschen. Folge den Anweisungen in der Anleitung zur Bankkonto-Verknüpfung, um sicherzustellen, dass alle Zahlungen korrekt angezeigt werden.
+
+## Warum werden meine bezahlten Rechnungen nicht als bezahlt markiert?
+
+Die fehlende Markierung der bezahlten Rechnungen kann an einer abgelaufenen Verbindung zu deinem Bankkonto liegen. Aufgrund der PSD2-Richtlinie dürfen Drittanbieter nur 90 Tage auf dein Bankkonto zugreifen, danach muss die Verbindung erneut autorisiert werden. Du kannst dein Bankkonto einfach erneut importieren, ohne das alte Konto zu löschen. Nach dem Import solltest du das Konto manuell aktualisieren, um sicherzustellen, dass alle Transaktionen korrekt synchronisiert werden.
+
+## Kann ich QONTO mit der Hundeschule Software verknüpfen?
+
+Ja, Du kannst QONTO problemlos mit der Software der Hundeschule verknüpfen. Die Anbindung erfolgt über die Bank-Integration, sodass Du Deine Umsätze automatisch in der Software sehen und direkt zuordnen kannst.
+
+## Ich kann meine Bank nicht importieren, da sie nicht erkannt wird. Was kann ich tun?
+
+Es tut uns leid, wenn Du Probleme beim Import Deiner Bank hast. Derzeit unterstützen wir die Bank Fyrst, die ein Onlinekonto der Deutschen Bank ist, leider noch nicht. Wenn sich dies ändert, werden wir Dich darüber informieren.
+
+## Wie kann ich meine Bankangaben in der Software ändern?
+
+Um deine Bankangaben in der Software zu ändern, gehe zu den **Unternehmenssettings**. Dort kannst du die Bankinformationen anpassen, einschließlich der Bankname, BIC und IBAN. Achte darauf, die Änderungen zu speichern, um Komplikationen zu vermeiden.
+
+## Wie wird die Mandatsreferenz bei neu eingetragenen Bankdaten generiert?
+
+Die Mandatsreferenz wird manuell eingetragen, da zur Zeit keine Automatisierung dafür existiert. Um sicherzustellen, dass keine doppelten Mandatsreferenzen verwendet werden, kannst du eine Excel-Datei deiner Kunden exportieren. In dieser Datei findest du eine Spalte mit der Bezeichnung „Mandatsreferenz“, in der du die bereits verwendeten Referenzen überprüfen kannst.
+
+## Warum wird mein Kontostand nicht aktualisiert?
+
+Es kann sein, dass einige Buchungen im Bankprogramm zwar vorab angezeigt werden, aber noch nicht endgültig abgebucht sind. In diesem Fall bleibt der Kontostand unverändert, bis die Zahlungen tatsächlich verarbeitet wurden. Wenn du Fragen zu speziellen Buchungen hast, schaue am besten direkt in deine Bankunterlagen.
+
+## Wie kann ich mein Bankkonto mit der Software verknüpfen?
+
+Um dein Bankkonto mit der Software zu verknüpfen, folge diesen Schritten:
+1. Stelle sicher, dass du die richtigen Bankdaten eingibst.
+2. Versuche, die Informationen zu aktualisieren oder das Konto neu zu importieren.
+3. Solltest du Schwierigkeiten haben, checke noch einmal alle Eingaben auf Korrektheit.
+
+Wenn du weiterhin Probleme hast, kann ein kurzes Video zur Anleitung hilfreich sein.
+
+Manchmal kann es aus verschiedenen Gründen zu Schwierigkeiten kommen, aber es lohnt sich, es erneut zu versuchen.
+
+## Warum funktioniert die Bankanbindung in meinem Account nicht mehr?
+
+Falls die Bankanbindung nicht mehr funktioniert und Zahlungen nicht den Kontoeingängen zugeordnet werden können, empfehle ich, die Einstellungen in deinem Account zu überprüfen. Wenn du nichts verändert hast, kann es hilfreich sein, direkt mit dem Support-Team Kontakt aufzunehmen.
+

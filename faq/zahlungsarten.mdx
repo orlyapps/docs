@@ -1,0 +1,42 @@
+---
+title: Zahlungsarten
+mode: "wide"
+description: 
+---
+
+## Warum bekommen Kund*innen beim Buchen von Kursen und Gruppen die Meldung '500 interner Fehler'?
+
+Der Fehler "500 interner Fehler" kann auftreten, wenn es Probleme mit der Zahlungsabwicklung gibt. In diesem Fall lag das Problem daran, dass ein neuer Stripe-Account in Deinem System hinterlegt wurde, der nicht vollständig verifiziert war. Dadurch konnten die Online-Zahlungen nicht korrekt durchgeführt werden. Um dieses Problem zu lösen, empfiehlt es sich, einen vollständig verifizierten Stripe-Account zu verwenden oder die Online-Zahlungsmethode zu deaktivieren.
+
+## Wie kann ich testen, ob die Online-Zahlungen wieder funktionieren? Gibt es bei Stripe Testkarten?
+
+Ja, bei Stripe kannst du Testkarten verwenden, um eine Zahlung zu simulieren. Überprüfe die Einstellungen, um sicherzustellen, dass die Online-Zahlung aktiviert ist.
+
+## Fallen bei der Online-Abwicklung Gebühren an? Wenn ja, wie hoch sind diese?
+
+Ja, bei der Online-Abwicklung fallen Gebühren an. Die genauen Informationen zu den Gebühren findest Du in der Hilfe zu den Zahlungsarten. Bitte sieh dir die entsprechenden Abschnitte in unserer Dokumentation an, um die spezifischen Beträge zu erfahren.
+
+## Wie kann ich Stripe als Zahlungsart deaktivieren?
+
+Du kannst Stripe in den Zahlungsarten einfach wieder deaktivieren. Gehe dazu in die Einstellungen deiner Zahlungsmethoden und suche die Option, um Stripe auszuschalten.  
+
+## Warum funktioniert die Bezahlart Apple Pay nicht?
+
+Es kann verschiedene Gründe geben, warum Apple Pay nicht funktioniert. Manchmal wird die Transaktion zwar gestartet, aber nicht vollständig abgeschlossen, was dazu führt, dass keine Abbuchung erfolgt und auch keine Rechnung erstellt wird. Wenn Du auf den Button 'Zahlungspflichtig bestellen' klickst und die Transaktion per FaceID oder Fingerabdruck bestätigen musst, achte darauf, dass die Verbindung stabil ist und auch die Zahlung ordnungsgemäß abgeschlossen wird. Wenn das System keine Bestätigung erhält, kann es sein, dass die Zahlung nicht durchgeht.
+
+## Wie kann ich sicherstellen, dass Kunden für verschiedene Leistungen direkt bei der Buchung zahlen können?
+
+Du kannst die Online Zahlungsart anlegen. So können Kunden die Leistungen online bezahlen. Bei Abonnements musst du die Online Zahlungen deaktivieren, um den monatlichen Einzug zu ermöglichen.
+
+## Wie kann ich sehen, wer welche Zahlung geleistet hat?
+
+Du kannst unter **Zahlungsarten > Online** alle Auszahlungen einsehen. Klicke auf die Auszahlung, um zu sehen, welche Rechnungen betroffen sind und welche Gebühren angefallen sind.
+
+## Wie erstelle ich eine neue Zahlungsart?
+
+Du kannst eine neue Zahlungsart 'per Rechnung' erstellen, indem du die entsprechenden Einstellungen in deinem Konto vornimmst und sicherstellst, dass die Rechnung nicht direkt versendet wird.
+
+## Wie funktioniert das Lastschriftverfahren für Zahlungen?
+
+Das Lastschriftverfahren läuft automatisch ab. Das Geld wird von Stripe eingezogen und dann an dich ausgezahlt. Beachte, dass es etwa 14 Tage dauert, bis das Geld bei dir eingeht.
+
